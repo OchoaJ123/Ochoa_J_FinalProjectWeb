@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Old Adobe School District: Camp Website</title>
+        <link rel="stylesheet" href="css/counselor.css">
+        <link rel="stylesheet" href="https://use.typekit.net/pbf8jtf.css">
+    </head>
+
+        <body>
+            <section class="hero1">
+                <img id="img1" src="img/header1-02.jpg">
+
+                <nav>
+                    <img class="logo" src="img/Asset 3 copy.png">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../event/event.html">Events</a></li>
+                        <li><a href="counselor.html">Counselors</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        const nav = document.querySelector("nav");
+            
+                        window.addEventListener("scroll", function () {
+                            if (window.scrollY > 50) {
+                                nav.classList.add("scrolled");
+                            } else {
+                                nav.classList.remove("scrolled");
+                            }
+                        });
+                    });
+                </script>
+
+                <div class="mainInfo">
+                    <h1 id="h11">Become A Counselor</h1>
+                    <br>
+                    <h2>Your first step at becoming a part of the "Royaneh Familia!"</h2>
+                    <br>
+                    <p id="mainP"> As a counselor at camp you must look after your cabin group and day group campers and help them through the week with meals, hikes, bathing, and, most importantly, having the greatest experience possible. </p>
+
+    
+                    <button onclick="scrollToSection()" class="button button-primary">Sign Up Forms</button>
+                </div>
+
+            </section>
+
+            <script>
+                function scrollToSection() {
+                  var targetSection = document.getElementById('targetSection');
+                  targetSection.scrollIntoView({ behavior: 'smooth' });
+                }
+              </script>
+
+            <section class="dates">
+                <div class="dates1">
+                    <div class="dates11">
+                        <h1>Steps and Dates</h1>
+                        <br>
+                        <p>Step 1: Initial Camp Counselor Meeting— 1/18/23 
+                            Sonoma Mountain Elementary School Library 7 pm</p>
+                        <br>
+                        <p>Step 2: Counselor Interviews-- 2/4/23 
+                            Sonoma Mountain Elementary School 9am-3 pm</p>
+                        <br>
+                        <p>Step 3: Counselor Training— 4/7/23 
+                            Sonoma Mountain Elementary School 4-6:30 pm</p>
+                        <br>
+                        <p>Step 4: Luggage Loading—4/13/23
+                            La Tercera 3-6 pm</p>
+                        <br>
+                        <p>Step 5: Counselor Bus Loading--4/14/23
+                            La Tercera 3:30-4:00 pm</p>
+                        <br>
+                        <p>CAMP DATES: 4/14/23—4/21/23 Camp Royaneh Program Dates</p>
+                        <br>
+                        <p>Step 6: Student Bus Return—4/21/23
+                            Petaluma Community Center 1:00 pm</p>
+                    </div>
+    
+                        <img id="dateImg" src="img/date.JPG">
+                    
+                </div>
+            </section>
+
+            <section class="forms">
+                <img id="forms-img" src="img/roll1_copy-transformed.jpeg">
+                <div class="formss1">
+                  <div id="targetSection" class="section" id="section1">
+                    <h1>New Counselors</h1>
+                    <br>
+                    <p>If you're new to our camp, welcome! We are excited to have you on board as a counselor. Learn more about the opportunities and experiences waiting for you.</p>
+                    <a href="link-to-new-counselor-form" class="btn">Apply Now</a>
+                  </div>
+            
+                  <div class="section" id="section2">
+                    <h1>Returning Counselors</h1>
+                    <br>
+                    <p>Welcome back, returning counselors! Your dedication and experience are invaluable to us. Explore the new activities and improvements for the upcoming season.</p>
+                    <a href="link-to-returning-counselor-form" class="btn">Reapply</a>
+                  </div>
+                </div>
+              </section>
+
+              <section class="moreInfo">
+                <h1>Detailed information<h1>
+                <br>
+                <div class="sectionContainer">
+                  <div class="infoSection">
+                    <header>Interview</header>
+                    <p>To be a camp counselor, you must interview. Our interview process is very easy and engaging. We ask a combination of silly and serious questions in a group setting to determine if you have what it takes!</p>
+                  </div>
+            
+                  <div class="infoSection">
+                    <header>Pre Camp Training</header>
+                    <p>A week before we head up to the magical grounds of Camp Royaneh, counselors old and new come together to play ice breaker games, make camp signage, and discuss important camp related topics.</p>
+                  </div>
+                </div>
+            
+                <div class="sectionContainer">
+                  <div class="infoSection">
+                    <header>Week of Camp Expectations</header>
+                    <p>As a counselor, it is your responsibility to tend to and look after the well-being of our campers and fellow staff. You must be enthusiastic and willing to make lasting memories for everyone there.</p>
+                  </div>
+            
+                  <div class="infoSection">
+                    <p>All first year counselors will ride the counselor bus to camp and arrive to camp on Friday April 14th the day before the campers. We will all work together to setup by prepping cabins, tent sites, and other facilities for the week and also go over important information and, most importantly, create that initial bond</p>
+                  </div>
+                </div>
+              </section>
+
+            <section class="footer">
+  
+                <img id="logo1" src="img/Asset 3 copy.png" alt="Logo">
+             
+              <div class="box">
+                <h2>School District</h2>
+                <p>Learn about</p>
+              </div>
+              <div class="box">
+                <h2>Forms</h2>
+                <p>New Counselor Forms</p>
+                <p>Returning Counselor Forms</p>
+                <p>Independent Study Forms</p>
+              </div>
+              <div class="box">
+                <h2>Contact</h2>
+                <div class="contact-icons">
+                  <i class="fas fa-envelope"></i>
+                  <i class="fas fa-phone"></i>
+                  <i class="fas fa-map-marker"></i>
+                </div>
+              </div>
+        
+            </section>
+
+            <script>
+                const observer = new IntersectionObserver(entries => {
+                  entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                      entry.target.classList.add('show');
+                    }
+                  });
+                });
+              
+                document.querySelectorAll('.dates, .forms, .moreInfo').forEach(element => {
+                  observer.observe(element);
+                });
+              </script>
+
+        </body>
+</html>

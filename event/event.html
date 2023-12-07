@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Old Adobe School District: Camp Website</title>
+        <link rel="stylesheet" href="css/event.css">
+        <link rel="stylesheet" href="https://use.typekit.net/pbf8jtf.css">
+    </head>
+
+    <body>
+
+      
+      <section class="hero1">
+        
+        <img id="img1" src="img/header1-03.jpg">
+
+        <nav>
+          <!-- <div class="logo">Your Logo</div> -->
+          <img class="logo" src="img/Asset 3.png">
+          <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="event.html">Events</a></li>
+              <li><a href="../counselor/counselor.html">Counselors</a></li>
+              <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+
+          <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const nav = document.querySelector("nav");
+
+                window.addEventListener("scroll", function () {
+                    if (window.scrollY > 50) {
+                        nav.classList.add("scrolled");
+                    } else {
+                        nav.classList.remove("scrolled");
+                    }
+                });
+            });
+        </script>
+
+        <div class="mainInfo">
+        <h1 id="h11">About Event</h1>
+        <br>
+        <h2 id="h22">Life Skills After Covid</h2>
+        <br>
+        <p id="mainP"> The Old Adobe Union School District hosts 6th grade camp at a Boy Scout Camp, called Camp Royaneh. The events will include hikes, camp team-building exercises, and survival life skill team-buildingexercises.</p>
+        <br>
+        <button onclick="scrollToSection('section1')" class="button button-primary">Event Days</button>
+        <button onclick="scrollToSection('section2')" class="button button-secondary">Other Events</button>
+        </div>
+
+      </section>
+
+      <script>
+        function scrollToSection(sectionId) {
+          var targetSection = document.getElementById(sectionId);
+          targetSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      </script>
+
+      <section id="section1" class="event1">
+
+        <div class="content1">
+
+          <img id="img2" src="img/incamp1.2.jpeg">
+
+          <div class="content11">
+          <h1>Event Day 1: In Camp</h1>
+          <br>
+          <p>"In Camp Day" is a dynamic experience tailored for 6th graders to rebuild teamwork post-COVID. Through team-building games, trust falls, and a ropes course, students rediscover collaboration and unity.</p>
+            <br>
+          <p>This day of fun activities serves as a refreshing opportunity for 6th graders to strengthen bonds and rekindle cooperative skills after the challenges of the pandemic.</p>
+          </div>
+          </div>
+
+      </section>
+
+      <section class="event2">
+
+        <div class="content2">
+            <div class="content22">
+              <h1> Event Day 2: River Hike</h1>
+              <br>
+              <p>"River Hike Day" is an exciting adventure where counselors lead sixth graders on a scenic hike to a river. Amidst nature, students engage in activities like archery, bracelet-making, and a unique "blind walk." </p>
+                <br>
+                <p>During the blind walk, students, guided by adult counselors, navigate a short hike blindfolded, relying solely on the sounds of the forest. This immersive experience not only fosters teamwork but also enhances sensory awareness, creating lasting memories for the sixth graders</p>
+            </div>
+
+            <img id="img3" src="img/incamp2.jpeg">
+        </div>
+      </section>
+
+      <section class="event3">
+
+        <div class="content3">
+
+          <img id="img4" src="img/river.jpeg">
+          <div class="content33">
+          <h1>Event Day 3: Survival Day</h1>
+          <br>
+          <p>"Survival Day" empowers sixth graders as they build tents from wood and sticks, enhancing teamwork. Through group activities, students form team names and chants, fostering unity. </p>
+            <br>
+            <p>Learning survival skills, such as building fires, becomes a metaphor for overcoming obstacles. Fun water activities add joy, creating a positive and memorable experience for students navigating the post-pandemic landscape together.</p>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="event4">
+        <div class="content4">
+          <div class="content44">
+            <h1>Event Day 4: Ocean Hike</h1>
+            <br>
+            <p>"Ocean Hike Day" takes sixth graders on a learning adventure about ocean animals. Students explore and discover marine life in an engaging environment. Despite the challenges of COVID, this experience offers a safe and rejuvenating outdoor setting, providing a welcome break from virtual learning and promoting mental well-being.</p>
+            <br>
+            <p>Connecting with nature and marine life fosters a sense of wonder, helping students navigate the difficulties of the pandemic by creating positive and memorable experiences during these challenging times.</p>
+          </div>
+
+          <img id="img5" src="img/ocean.jpeg">
+        </div>
+      </section>
+
+      <section id="section2" class="event5">
+        <div class="content5">
+          <img id="img6" src="img/evening.jpeg">
+
+          <div class="content55">
+            <h1>End Of Day Activities</h1>
+            <br>
+            <p>At the end of the day, the excitement continues with "Camp Show" and "Camp Dance." Sixth graders let loose and have a blast as they showcase their talents during the camp show. The camp dance follows, offering a lively space for students to unwind, socialize, and create lasting memories. </p>
+            <br>
+            <p>These activities not only provide a fun conclusion to the day but also serve as a joyful outlet, fostering positive connections among the sixth graders and helping them unwind from the challenges of the day and the broader context of the COVID era.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+
+      </section>
+
+      <section class="footer">
+  
+        <img id="logo1" src="img/Asset 3.png" alt="Logo">
+     
+      <div class="box">
+        <h2>School District</h2>
+        <p>Learn about</p>
+      </div>
+      <div class="box">
+        <h2>Forms</h2>
+        <p>New Counselor Forms</p>
+        <p>Returning Counselor Forms</p>
+        <p>Independent Study Forms</p>
+      </div>
+      <div class="box">
+        <h2>Contact</h2>
+        <div class="contact-icons">
+          <i class="fas fa-envelope"></i>
+          <i class="fas fa-phone"></i>
+          <i class="fas fa-map-marker"></i>
+        </div>
+      </div>
+
+    </section>
+
+   
+    <script>
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+          }
+        });
+      });
+    
+      document.querySelectorAll('.content1, .content3, .content5, #img2, #img4, #img3, #img5, #img6, .content22, .content44, .content66').forEach(element => {
+        observer.observe(element);
+      });
+    </script>
+
+  </body> 
+</html>

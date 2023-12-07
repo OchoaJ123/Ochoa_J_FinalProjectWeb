@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Old Adobe School District: Camp Website</title>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="https://use.typekit.net/pbf8jtf.css">
+    </head>
+    <body>
+      <section class="hero1">
+        
+        <img id="img1" src="img/header1-01.jpg">
+
+        <nav>
+          <!-- <div class="logo">Your Logo</div> -->
+          <img class="logo" src="img/Asset 3 copy.png">
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="event/event.html">Events</a></li>
+              <li><a href="counselor/counselor.html">Counselors</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+      </nav>
+
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const nav = document.querySelector("nav");
+
+            window.addEventListener("scroll", function () {
+                if (window.scrollY > 50) {
+                    nav.classList.add("scrolled");
+                } else {
+                    nav.classList.remove("scrolled");
+                }
+            });
+        });
+    </script>
+
+        <div class="mainInfo">
+        <h1 id="h11">Old Adobe School District</h1>
+        <br>
+        <h2 id="h22">Camp Royaneh 6th  Grade Camp</h2>
+        <br>
+        <p id="mainP"> The Old Adobe School District aims to highlight the effects of COVID-19 on elementary school students' development, emphasizing challenges in communication and teamwork due to disruptions like lockdowns and remote learning. </p>
+        <br>
+        <button class="button button-primary"><a href ="counselor/counselor.html">Become A Counselor</a></button>
+        </div>
+        
+      </section>
+
+      <section class="mission">
+        <div class="mission1">
+        <h1>Our Mission</h1>
+        <br>
+        <p>​It is our mission to foster a greater sense of self-worth in individual children and develop community between 6th graders before their promotion to junior high school.</p>
+        </div>
+      </section>
+
+      <section class="html">
+        <div id="container">
+          <input type="radio" id="dot1" name="dotGroup" checked>
+          <label for="dot1"></label>
+          <div class="slide background1"><img src="img/roll1.JPG" alt="Image 1"></div>
+      
+          <input type="radio" id="dot2" name="dotGroup">
+          <label for="dot2"></label>
+          <div class="slide background2"><img src="img/roll2.JPG" alt="Image 2"></div>
+      
+          <input type="radio" id="dot3" name="dotGroup">
+          <label for="dot3"></label>
+          <div class="slide background3"><img src="img/roll3.JPG" alt="Image 3"></div>
+      
+          <input type="radio" id="dot4" name="dotGroup">
+          <label for="dot4"></label>
+          <div class="slide background4"><img src="img/roll4.JPG" alt="Image 4"></div>
+        </div>
+      </section>
+  
+   
+
+    
+
+    <!-- <section class="imgHeader">
+      <img id="imgH"src = "img/roll2.JPG">
+    </section> -->
+
+    <section class="imgHeader">
+      <img id="imgH" src="img/roll2.JPG" alt="Header Image">
+      <div class="stats">
+        <h1>Ways Camps Help Students Grow After COVID's Effects</h1>
+        <p>Stat 1: Lorem ipsum dolor sit amet.</p>
+        <p>Stat 2: Consectetur adipiscing elit.</p>
+        <p>Stat 3: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </section>
+
+    
+    
+    <section class="program">
+      
+      <h1 id="program-header">Our Program</h1>
+      
+    <div class="container">
+      <div class="program-box">
+          <img src="image1.jpg" alt="Image 1">
+          <h2>The Hill</h2>
+          <h2>Where Campers Sleep</h2>
+          <p>1. 30 students to 1 counselor ratio</p>
+          <p>2. Campers bunk with friends</p>
+          <p>3. One Bathroom per campsite</p>
+      </div>
+
+      <div class="program-box">
+          <img src="image2.jpg" alt="Image 2">
+          <h2>Week Of Camp</h2>
+          <h2>The Schedule</h2>
+          <p>1. Camp Timeline</p>
+          <p>2. Caper Day Groups</p>
+          <p>3. Different activities each day</p>
+      </div>
+
+      <div class="program-box">
+          <img src="image3.jpg" alt="Image 3">
+          <h2>Camper Evenings</h2>
+          <h2>Nightime Activites</h2>
+          <p>1. Camp Shows</p>
+          <p>2. Camp Dances</p>
+          <p>3. Group Bonfire</p>
+      </div>
+  </div>
+    </div>
+
+    </section>
+
+    <section class="footer">
+  
+        <img id="logo1"src="img/Asset 3 copy.png" alt="Logo">
+     
+      <div class="box">
+        <h2>School District</h2>
+        <p>Learn about</p>
+      </div>
+      <div class="box">
+        <h2>Forms</h2>
+        <p>New Counselor Forms</p>
+        <p>Returning Counselor Forms</p>
+        <p>Independent Study Forms</p>
+      </div>
+      <div class="box">
+        <h2>Contact</h2>
+        <div class="contact-icons">
+          <i class="fas fa-envelope"></i>
+          <i class="fas fa-phone"></i>
+          <i class="fas fa-map-marker"></i>
+        </div>
+      </div>
+
+    </section>
+
+    <script>
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+          }
+        });
+      });
+    
+      document.querySelectorAll('.mission, .imgHeader, .program').forEach(element => {
+        observer.observe(element);
+      });
+    </script>
+
+  </body> 
+</html>

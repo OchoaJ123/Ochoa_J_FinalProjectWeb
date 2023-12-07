@@ -3,8 +3,70 @@
     <head>
         <meta charset="UTF-8">
         <title>Old Adobe School District: Camp Website</title>
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="https://use.typekit.net/pbf8jtf.css">
         <body>
+
+            <nav>
+                <img class="logo" src="img/logo.png">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../event/event.html">Events</a></li>
+                    <li><a href="../contact/contact.html">Counselors</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    const nav = document.querySelector("nav");
+        
+                    window.addEventListener("scroll", function () {
+                        if (window.scrollY > 50) {
+                            nav.classList.add("scrolled");
+                        } else {
+                            nav.classList.remove("scrolled");
+                        }
+                    });
+                });
+            </script>
+
+           
+            <div id="contact">
+                <div id="contact-form">
+                  <h1>Contact Us</h1>
+                  <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                    <button type="submit">Submit</button>
+                  </form>
+                </div>
+              </div>
+
+              <section class="footer">
+  
+                <img id="logo1" src="img/logo.png"alt="Logo">
              
+              <div class="box">
+                <h2 id="h22">School District</h2>
+                <p>Learn about</p>
+              </div>
+              <div class="box">
+                <h2 id="h22">Forms</h2>
+                <p>New Counselor Forms</p>
+                <p>Returning Counselor Forms</p>
+                <p>Independent Study Forms</p>
+              </div>
+              <div class="box">
+                <h2 id="h22">Contact</h2>
+                <div class="contact-icons">
+                  <i class="fas fa-envelope"></i>
+                  <i class="fas fa-phone"></i>
+                  <i class="fas fa-map-marker"></i>
+                </div>
+              </div>
+           
         </body>
     </head>
 </html>

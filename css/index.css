@@ -72,6 +72,13 @@ font-style: normal;
   color: black;
 }
 
+#h22 {
+  font-family: "open-sans", sans-serif;
+font-weight: 700;
+font-style: normal;
+  color: white;
+}
+
 #h11{
   color: white;
 }
@@ -269,12 +276,14 @@ label {
   text-align: left;
   width: 30%;
   margin: 0;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
 .program-box img {
   max-width: 100%;
   height: auto;
-  border-radius: 50%;
+  border-radius: 5%;
+  /* box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1); */
   margin-bottom: 10px;
 }
 
@@ -290,7 +299,7 @@ label {
 
 .program-box p {
   font-size: 0.9em;
-  color: #777;
+  color: black;
 }
 
 

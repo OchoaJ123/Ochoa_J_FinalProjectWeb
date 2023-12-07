@@ -169,12 +169,14 @@ body {
     white-space: nowrap;
   }
   
-  .contact-icons {
-    display: flex;
-    justify-content: center;
+  .contact-footer {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 0px;
   }
   
-  .contact-icons i {
-    font-size: 20px;
-    margin: 0 10px;
+  .contact-footer:hover {
+    color: #2980b9;
   }

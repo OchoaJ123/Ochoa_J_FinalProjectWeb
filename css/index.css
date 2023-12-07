@@ -235,6 +235,8 @@ label {
 #imgH {
   width: 40%; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
+  border-radius: 5%;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
 .stats {

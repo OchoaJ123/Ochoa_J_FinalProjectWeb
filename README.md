@@ -31,3 +31,5 @@ Image gallery on index.html (found through google): https://codepen.io/hardik-ch
 
 Sticky navigation (found on youtube): https://www.youtube.com/watch?v=gbmV2Lh9dBM
 
+Automatic scroll (found on internet): https://css-tricks.com/sticky-table-of-contents-with-scrolling-active-states/
+

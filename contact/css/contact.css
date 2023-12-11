@@ -95,7 +95,6 @@ body {
 
   #contact-form {
     width: 600px;
-    /* background-color: rgba(255, 255, 255, 0.8); */
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -107,7 +106,6 @@ body {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    /* border: 1px solid #ccc; */
     border-radius: 4px;
     box-sizing: border-box;
   }

@@ -29,7 +29,7 @@ nav.scrolled {
 
 .logo {
   width: 90px;
-  height: 30px; /* Adjust the height of the logo as needed */
+  height: 30px;
 }
 
 ul {
@@ -195,8 +195,6 @@ label {
   opacity: 0;
   box-shadow: 0 0 20px 0px;
   border-radius: 10px;
-
-  /* Style for text inside slide */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -233,14 +231,14 @@ label {
 }
 
 #imgH {
-  width: 40%; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
+  width: 40%; 
+  height: auto; 
   border-radius: 5%;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
 .stats {
-  width: 50%; /* Adjust the width as needed */
+  width: 50%; 
 }
 
 .stats h1 {
@@ -285,7 +283,6 @@ label {
   max-width: 100%;
   height: auto;
   border-radius: 5%;
-  /* box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1); */
   margin-bottom: 10px;
 }
 
